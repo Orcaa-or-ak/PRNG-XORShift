@@ -17,7 +17,7 @@ x \gets x \oplus (x \ll c)
 $$
 
 Where:
-- $oplus$ is the bitwise XOR operation.
+- $\oplus$ is the bitwise XOR operation.
 - $\ll$ is the left shift operation.
 - $\gg$ is the right shift operation.
 - $a$, $b$, and $c$ are constants.
