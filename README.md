@@ -4,9 +4,7 @@ This project demonstrates the implementation of a XORShift random number generat
 
 ## Overview
 
-The XORShift algorithm is a type of pseudorandom number generator that uses a series of XOR and shift operations to produce random values. 
-
-The XORShift algorithm is defined by the following operations:
+The XORShift algorithm is a type of pseudorandom number generator that uses a series of XOR and shift operations to produce random values. It is defined by the following operations:
 
 $$
 \begin{align*}
