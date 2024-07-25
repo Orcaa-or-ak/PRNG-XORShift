@@ -6,6 +6,22 @@ This project demonstrates the implementation of a XORShift random number generat
 
 The XORShift algorithm is a type of pseudorandom number generator that uses a series of XOR and shift operations to produce random values. This implementation generates 512-bit random numbers.
 
+The XORShift algorithm is defined by the following operations:
+
+\[
+\begin{align*}
+x \gets x \oplus (x \ll a) \\
+x \gets x \oplus (x \gg b) \\
+x \gets x \oplus (x \ll c)
+\end{align*}
+\]
+
+Where:
+- \(\oplus\) denotes the bitwise XOR operation.
+- \(\ll\) denotes the left shift operation.
+- \(\gg\) denotes the right shift operation.
+- \(a\), \(b\), and \(c\) are constants.
+
 ## Implementation
 
 The Java implementation of the XORShift is encapsulated in a class named `XORShift`. The BigInteger class of the java.math package is used to handle large integers, and the SecureRandom class of the java.security package is used to generate a strong initial seed. These two classes are suitable for cryptographic purposes.
