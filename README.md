@@ -8,13 +8,13 @@ The XORShift algorithm is a type of pseudorandom number generator that uses a se
 
 The XORShift algorithm is defined by the following operations:
 
-\[
+$$
 \begin{align*}
 x \gets x \oplus (x \ll a) \\
 x \gets x \oplus (x \gg b) \\
 x \gets x \oplus (x \ll c)
 \end{align*}
-\]
+$$
 
 Where:
 - \(\oplus\) denotes the bitwise XOR operation.
@@ -54,8 +54,9 @@ public static void main(String[] args) {
 
     // Generate and print 10 random numbers
     for (int i = 0; i < 10; i++) {
-        System.out.println(xorShift.next());
-        System.out.println();
+        BigInteger randomNumber = xorShift.next();
+        System.out.println("Random Number: " + randomNumber);
+        System.out.println("Bit Length: " + randomNumber.bitLength());
     }
 }
 ```
