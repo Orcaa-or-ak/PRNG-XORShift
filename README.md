@@ -34,7 +34,7 @@ The Java implementation of the XORShift is encapsulated in a class named `XORShi
   ```
 
 - **Method**:
-  - `public BigInteger next()`: Computes and returns the next number in the sequence using the XORShift formula.
+  - `public BigInteger next()`: Computes and returns the next number in the sequence using the XORShift operations.
 
 ### Main Method
 
