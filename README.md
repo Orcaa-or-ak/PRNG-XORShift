@@ -52,10 +52,9 @@ public static void main(String[] args) {
 
     // Generate and print 10 random numbers
     for (int i = 0; i < 10; i++) {
-        BigInteger randomNumber = xorShift.next();
-        System.out.println("Random Number: " + randomNumber);
-        System.out.println("Bit Length: " + randomNumber.bitLength());
-    }
+            System.out.println(xorShift.next());
+            System.out.println();
+        }
 }
 ```
 
