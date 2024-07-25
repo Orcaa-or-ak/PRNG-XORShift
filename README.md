@@ -18,8 +18,8 @@ $$
 
 Where:
 - $oplus$ is the bitwise XOR operation.
-- $ll$ is the left shift operation.
-- $gg$ is the right shift operation.
+- $\ll$ is the left shift operation.
+- $\gg$ is the right shift operation.
 - $a$, $b$, and $c$ are constants.
 
 ## Implementation
