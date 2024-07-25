@@ -42,9 +42,8 @@ The `main` method demonstrates how to use the `XORShift` class to generate and p
 
 ```java
 public static void main(String[] args) {
-    // Seed value (512 bits)
     SecureRandom secureRandom = new SecureRandom();
-    byte[] seedBytes = new byte[64]; // 512 bits
+    byte[] seedBytes = new byte[64];
     secureRandom.nextBytes(seedBytes);
     BigInteger seed = new BigInteger(1, seedBytes);
 
