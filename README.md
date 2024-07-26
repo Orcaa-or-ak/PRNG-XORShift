@@ -59,5 +59,5 @@ public static void main(String[] args) {
 
 This will generate and print 10 pseudorandom numbers based on the XORShift algorithm.
 
-### Calculate CPU and RAM use, as well as time cost after generate each number.
+### Calculate CPU, RAM use and time costs.
 The `System.nanoTime()` and `Runtime` class are used to measure how much CPU, RAM and time the program takes to generate a number.
